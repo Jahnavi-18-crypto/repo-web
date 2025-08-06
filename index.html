@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Self-Care Reminder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌸 Self-Care Reminder 🌸</h1>
+    <p class="quote">"You are worthy of rest and love." 💗</p>
+
+    <ul class="task-list">
+      <li><input type="checkbox" onclick="markTask(this)"> Drink Water 💧</li>
+      <li><input type="checkbox" onclick="markTask(this)"> Take Deep Breaths 🧘‍♀</li>
+      <li><input type="checkbox" onclick="markTask(this)"> Stretch Your Body 🤸‍♀</li>
+      <li><input type="checkbox" onclick="markTask(this)"> Rest Your Eyes 😴</li>
+      <li><input type="checkbox" onclick="markTask(this)"> Go for a Walk 🚶‍♀</li>
+      <li><input type="checkbox" onclick="markTask(this)"> Journal a Thought 📝</li>
+    </ul>
+
+    <button onclick="resetTasks()">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
